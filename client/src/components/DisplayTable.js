@@ -114,7 +114,7 @@ export class DisplayTable extends React.Component {
                   column_keys, 
                   col => (
                     <td key={col}>
-                      {col_data[col]}
+                      {`${col_data[col]}`}
                     </td>
                   )
                 )}
